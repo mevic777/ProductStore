@@ -29,19 +29,22 @@ public class Main {
                     System.out.println("3. " + mousepad.getName());
                     System.out.println("4. " + monitor.getName());
                     System.out.println("5. " + phone.getName());
-                };
+                    break;
+                }
                 case 2: {
                     System.out.println("TOTAL PRICE IS: " + totalPrice);
-                };
+                    break;
+                }
                 case 3: {
                     System.exit(0);
-                };
+                }
                 default: {
                     System.out.println("Bravo");
                 }
             }
         } else {
             System.out.println("Introduce-ti un numar corect !!!");
+            mainMenu();
         }
 
 
